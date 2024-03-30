@@ -1,0 +1,34 @@
+.formBox {
+  border: 1px solid yellow;
+  border-radius: 20px;
+  background-color: rgb(246, 250, 250);
+  height: 230px;
+  width: 300px;
+  padding: 10px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+label {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.input {
+  width: 290px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.error {
+  font-size: 14px;
+  color: red;
+}
+.buttonAdd {
+  background-color: rgb(175, 175, 241);
+  margin-top: 10px;
+}

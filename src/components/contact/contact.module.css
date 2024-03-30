@@ -1,0 +1,27 @@
+.contactCont {
+  width: 300px;
+  background-color: rgb(246, 250, 250);
+  border: 1px solid yellow;
+  border-radius: 20px;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.ul {
+  padding: 0;
+  align-items: first baseline;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+}
+.svg {
+  margin-right: 5px;
+}
+.buttonDelete {
+  background-color: rgb(175, 175, 241);
+  width: 85px;
+  height: 40px;
+  margin-left: auto;
+  margin-top: 10px;
+}

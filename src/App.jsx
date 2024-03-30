@@ -49,7 +49,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="Box">
         <h1>Phonebook</h1>
         <ContactForm onSubmit={addContact} />
         <SearchBox value={searchTerm} onChange={setSearchTerm} />
